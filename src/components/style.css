@@ -1,0 +1,111 @@
+/* HEADER STYLING */
+*{
+   box-sizing: border-box;
+}
+.main-header{
+    max-width: 850px;
+   margin: 20px auto;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+}
+.h1_variant{
+    margin: 0px 0px;
+    width: 550px;
+    font-size: 35px;
+    color: #3c4852;
+    line-height:45px;
+}
+.main-header p{
+    color: #3c4852;
+    font-weight: 500;
+}
+.main-header .header-container span{
+    color: #08c0a0;
+    font-weight: 500;
+}
+
+/* MAIN STYLING */
+ .success-main{
+    position: relative;
+    max-width: 900px;
+    background-color:#fff6e2;
+    margin: 0px auto;
+    margin-top: -20px;
+    border-radius: 20px;
+    padding: 0px 30px;
+ }
+ .btn{
+    top:50%;
+    border: none;
+    background-color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 25px;
+    color:gray;
+ }
+ .btn-left{
+    position: absolute;
+    left: 0;
+ }
+ .btn-right{
+    position: absolute;
+    right: 0;
+ }
+ .success-main .card-container{
+    display: flex;
+    overflow: hidden;
+    scroll-behavior: smooth;
+ }
+
+.review-container{
+   max-width: 880px;
+   margin: 30px auto;
+   cursor: text;
+}
+.review-heading{
+   display: flex;
+   justify-content: space-between;
+}
+ .reviews{
+   display: flex;
+   overflow: hidden;
+   scroll-behavior: smooth;
+ }
+.button{
+   border: 1px solid #ccc;
+   font-size: 25px;
+   margin: 2px;
+   background-color: #fff;
+   border-radius: 5px;
+   color: #555;
+}
+
+
+@media screen and (max-width:600px){
+   .main-header{
+      max-width: 100%;
+     text-align: start;
+  }
+  .h1_variant{
+      width: 100%;
+      margin-left: 10px;
+
+  }
+  .main-header p{
+      color: #3c4852;
+      font-weight: 500;
+      margin-right: 160px;
+      margin-left: 10px;
+      
+      line-height:20px; 
+  }
+  .main-header .header-container span{
+      color: #08c0a0;
+      font-weight: 500;
+  }
+
+
+  
+}
