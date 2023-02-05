@@ -4,6 +4,7 @@ import "./card-style.css"
   return (
     <div className='card-image'>
         <img src={props.image} alt="image"/>
+        
     </div>
   )
 }

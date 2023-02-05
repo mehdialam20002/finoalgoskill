@@ -89,7 +89,7 @@
      text-align: start;
   }
   .h1_variant{
-      width: 100%;
+      width: 90%;
       margin-left: 10px;
 
   }
@@ -108,4 +108,61 @@
 
 
   
+
+  .success-main .card-container{
+   display: flex;
+   overflow: scroll;
+   scroll-behavior: smooth;
+}
+
+
+.card-container::-webkit-scrollbar {
+   display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.card-container {
+ -ms-overflow-style: none;  /* IE and Edge */
+ scrollbar-width: none;  /* Firefox */
+}
+
+
+.reviews::-webkit-scrollbar {
+   display: none;
+}
+
+.reviews {
+ -ms-overflow-style: none;  
+ scrollbar-width: none; 
+}
+
+
+.review-heading{
+  display: flex;
+  justify-content: space-between;
+}
+.reviews{
+  display: flex;
+  overflow: scroll;
+  scroll-behavior: smooth;
+}
+
+
+.button {
+   border: none;
+   font-size: 0px;
+   margin: 0px;
+   background-color:none;
+   border-radius: 0px;
+   color:none;
+}
+
+.btn-left{
+   display: none;
+}
+.btn-right{
+   display: none;
+}
+
+
 }

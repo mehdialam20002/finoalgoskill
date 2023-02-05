@@ -23,8 +23,8 @@ export default function Main() {
   
   return (
     <div className='success-main'>
-      <button className='btn btn-left' onClick={scroll_Left}>&lt;</button>
-      <button className='btn btn-right' onClick={scroll_Right}>&gt;</button>
+      <button className='btn  btn-left' onClick={scroll_Left}>&lt;</button>
+      <button className='btn  btn-right' onClick={scroll_Right}>&gt;</button>
       <div className="card-container">
       {
         Images.map((item,i)=>(
